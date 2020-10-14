@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-attachment: fixed;
+	font-family: 'Poiret One', cursive; 
+	overflow-y:scroll;
+	overflow-x: hidden;
+	transform-style: preserve-3d;
+	background: url(https://steamuserimages-a.akamaihd.net/ugc/915792633195763888/3006415F705F0B44F327161749961827E1041FB0/) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+header{
+
+	height: 5%  
+	background-color: #000;
+}
+a{
+	text-decoration: none;
+}
+.navigation{
+	word-wrap: break-word;
+	border-radius: 100px;
+	margin-left: 2%;
+	width: 95%;
+	background-color: #1f1c1c;
+	margin-right:30%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-around;
+}
+.nav__link{
+	position: inherit;
+	text-align: center;
+	height: 70%;
+	font-size: 38px;
+	border-radius: 5px;
+	border: 2px solid #1f1c1c; 
+	color:#fff;
+	transition: .3s linear;
+}
+
+.nav__link:hover{
+	text-align: center;
+	color: #000;
+	border-color: #00CED1;
+	background-color: #00CED1; 
+}
+main{
+	margin-right: 10%;
+	margin-left: 10%; 
+	background: url(https://media.discordapp.net/attachments/761296758227337237/761299354572816404/black-buds.png);
+	color: #fff;
+	font-size: 38px;
+	border-radius: 30px;
+	word-wrap: break-word;
+}
+
+}
+p{
+	opacity: 100%;
+	margin-left: 12px;
+}
+.texta{
+	display: block;
+	text-align: center;
+
+}
+
+}
+hr{
+
+	width: 500px;
+	size: 1px;
+}
+footer{
+	margin-top: 10px;
+	border-radius: 30px;
+	margin-right: 10%;
+	margin-left: 10%; 
+	background: url(https://media.discordapp.net/attachments/761296758227337237/761299354572816404/black-buds.png);
+}
+
+.footer_p{
+	text-align: center;
+	font-size:16px;
+	color: #fff;
+}
+.footer_p1{
+	margin-bottom: 0;
+	text-align: center;
+	font-size:16px;
+	color: #fff;
+}
+
+.soso {
+	margin-top: 1%;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+	cursor: pointer;
+	font-weight: 6px;
+	opacity: 40%;
+	color: #000;
+	display: flex;
+	height: 40vh;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 20%;
+	transition: .3s linear;
+}
+.item:hover{
+	transform: translateY(-10px);
+	height: 40vh;
+	color: 	rgb(255,0,255);
+	box-shadow: 0 0 20px rgb(0,255,255);
+	font-size: 48px;
+	opacity: 100%;
+	flex-basis: 30%;
+}
+.item-1{
+	background: url('https://secretmag.ru/thumb/1800x0/filters:quality(75):no_upscale()/imgs/2016/04/01/10/3446/8ccdc0c830ee1b7c3ef25a73556accb0772706bb.jpg') no-repeat center center;
+	background-size: cover;
+}
+.item-2{
+	background: url('https://infuture.ru/images/89d7ae88e2509faa01f1cec6c925fe41.Taihoo_car.jpg') no-repeat center center;
+	background-size: cover;
+}
+.item-3{
+	background: url('https://static.novayagazeta.ru/storage/gallery_image/17/picture-77fdcb7c17b4bfa7defa82287fb8534a.jpg') no-repeat center center;
+	background-size: cover;
+}
+.item-4{
+	background: url('https://m.hi-tech.ua/wp-content/uploads/2017/01/Toyota-Concept-i-1-615x396.jpg') no-repeat center center;
+	background-size: cover;
+}
+.karta {
+	margin-right: 10px;
+	margin-left: 10px;
+	position: inherit;
+}
+.boba{
+	text-align: center;
+}
+iframe{
+	width: 100%;
+	height: 50vh;
+}
+
+.biba {
+	text-align: center; 
+	text-transform: uppercase;
+}
