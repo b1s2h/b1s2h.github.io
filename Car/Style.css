@@ -65,13 +65,10 @@ main{
 
 }
 p{
-	opacity: 100%;
-	margin-left: 12px;
+	margin-left: 5%;
 }
-.texta{
-	display: block;
+h1{
 	text-align: center;
-
 }
 
 }
@@ -121,6 +118,7 @@ footer{
 	transition: .3s linear;
 }
 .item:hover{
+	z-index: 1;
 	transform: translateY(-10px);
 	height: 40vh;
 	color: 	rgb(255,0,255);
@@ -161,4 +159,50 @@ iframe{
 .biba {
 	text-align: center; 
 	text-transform: uppercase;
+}
+span{
+	text-align: center;
+}
+
+
+
+.leftimg{
+	width: 602px;
+	height: 500px;
+	float: left;
+}
+.IM{
+	float: left;
+	width: 602px;
+	height: 500px;
+	background: url(https://fintolk.pro/wp-content/uploads/2020/06/ilon-mask3.png);
+}
+.IM:hover{
+	
+}
+
+
+.chinabus{
+	transition: .2s;
+	background: url();
+	float: right;
+}
+.chinabus:hover{
+	box-shadow: 0 0 20px rgb(0,255,255);
+
+}
+.flyauto{
+	transition: .2s;
+	float: left;
+}
+.flyauto:hover{
+	box-shadow: 0 0 20px rgb(0,255,255);
+
+}
+.volvo{
+	float: right;
+	transition: .2s;
+}
+.volvo:hover{
+	box-shadow: 0 0 20px rgb(0,255,255);
 }
