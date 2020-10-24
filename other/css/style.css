@@ -158,7 +158,6 @@ ul{
 }
 
 .container {
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
   background: #fff;
   width: 100%;
   max-width: 1200px;
